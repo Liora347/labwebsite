@@ -9,10 +9,15 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Eran Meshorer Lab"
 title_separator          : "-"
 name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : "The Meshorer lab is studying
+
+1. Epigenetic regulation in stem cells and differentiation;
+2. Neurodegenerative diseases (e.g. HD) using pluripotent stem cell models;
+3. Paleo-epigenetics reconstructing DNA methylation in archaic genomes."
+
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +29,12 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Professor Eran Meshorer"
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Department of Genetics, The Institute of Life Sciences, Silberman Building, Room 2-541. The Hebrew University of Jerusalem, Edmond J. Safra Campus, Givat Ram"
+  employer         : "The Hebrew University of Jerusalem"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "eran.meshorer@mail.huji.ac.il" 
 
   # Academic websites
   academia         : # URL
