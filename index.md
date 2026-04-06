@@ -1,24 +1,46 @@
 ---
-layout: single
+layout: splash
 title: "Eran Meshorer Lab"
 permalink: /
+header:
+  overlay_color: "#000"
+  overlay_filter: 0.5
+  overlay_image: /images/lab.jpg
 ---
 
-# Eran Meshorer Lab  
-### Epigenetics, Stem Cells, and Neurons
+# Epigenetics, Stem Cells, and Neurons
 
-Welcome to the Meshorer Lab at the Hebrew University of Jerusalem.
+Understanding genome regulation, cell identity, and disease through epigenetics.
 
-We study how **epigenetic mechanisms regulate genome plasticity, cell identity, and disease**, with a focus on stem cells and neuronal systems.
+[ Explore Research →](/research/)  
+[ Join the Lab →](/contact/)
 
 ---
 
 ## Research Overview
 
-Our lab investigates the interplay between chromatin structure and gene expression in development and disease.
+The Meshorer Lab studies how **chromatin structure and epigenetic mechanisms regulate cellular identity, development, and disease**.
+
+We combine experimental and computational approaches to explore genome plasticity in stem cells and neurons.
 
 ---
 
-## Join the Lab
+## Research Highlights
 
-eran.meshorer@mail.huji.ac.il
+- Chromatin dynamics in pluripotent stem cells  
+- Modeling neurodegenerative diseases (e.g. Huntington’s disease)  
+- Reconstruction of ancient DNA methylation patterns  
+
+---
+
+## Our Lab
+
+![Lab Photo](/images/lab_group.jpg)
+
+---
+
+## Join Us
+
+We are always looking for motivated students and researchers.
+
+**eran.meshorer@mail.huji.ac.il**
