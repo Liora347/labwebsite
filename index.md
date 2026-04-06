@@ -13,12 +13,12 @@ We study how **epigenetic mechanisms regulate genome plasticity, cell identity, 
 
 ---
 
-## 🔬 Research Overview
+## Research Overview
 
 Our lab investigates the interplay between chromatin structure and gene expression in development and disease.
 
 ---
 
-## 📢 Join the Lab
+## Join the Lab
 
-📩 eran.meshorer@mail.huji.ac.il
+eran.meshorer@mail.huji.ac.il
