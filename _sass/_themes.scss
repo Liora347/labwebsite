@@ -249,3 +249,7 @@ h1, h2 {
   max-width: 1100px;
   margin: auto;
 }
+/* Smooth transitions everywhere */
+* {
+  transition: all 0.2s ease;
+}
