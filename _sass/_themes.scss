@@ -2,208 +2,136 @@
    SHARED THEME SETTINGS
    ========================================================================== */
 
-/* ==========================================================================
-   TYPOGRAPHY
-   ========================================================================== */
+/* TYPOGRAPHY */
+$doc-font-size: 16;
+$paragraph-indent: false;
+$indent-var: 1.3em;
 
-/* Used to set the size for <em> */
-$doc-font-size              : 16;
+$serif: Georgia, Times, serif;
+$sans-serif: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace: Monaco, Consolas, "Lucida Console", monospace;
 
-/* Paragraph indention */
-$paragraph-indent           : false; // true, false (default)
-$indent-var                 : 1.3em;
+$global-font-family: $sans-serif;
+$header-font-family: $sans-serif;
+$caption-font-family: $serif;
 
-/* System typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
-
-/* Sans serif typefaces */
-$sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
-
-/* Serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
-
-/* Type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.563em;  // ~25.008px
-$type-size-4                : 1.25em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 0.75em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
-
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
-
-/* ==========================================================================
-   Breakpoints
-   ========================================================================== */
-
+/* BREAKPOINTS */
 @include breakpoint-set("to ems", true);
 
-$small                      : 600px !default;
-$medium                     : 768px !default;
-$medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
+$small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 925px !default;
+$x-large: 1280px !default;
 
-/* ==========================================================================
-   Grid
-   ========================================================================== */
-
-$right-sidebar-width-narrow : auto;
-$right-sidebar-width        : auto;
-$right-sidebar-width-wide   : auto;
-
+/* GRID */
 $susy: (
-    columns: 12,
-    column-width: 120px,
-    gutters: 1/4,
-    math: fluid,
-    output: float,
-    gutter-position: after,
-    container: $large,
-    global-box-sizing: border-box,
+  columns: 12,
+  column-width: 120px,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: $large,
+  global-box-sizing: border-box,
 );
 
 /* ==========================================================================
-   BRAND COLORS
+   MODERN CUSTOM STYLING
    ========================================================================== */
 
-$behance-color              : #1769FF;
-$bluesky-color              : #1184fe;
-$dribbble-color             : #ea4c89;
-$facebook-color             : #3b5998;
-$flickr-color               : #ff0084;
-$foursquare-color           : #0072b1;
-$google-plus-color          : #dd4b39;
-$instagram-color            : #517fa4;
-$kaggle-color               : #20c0ff;
-$lastfm-color               : #d51007;
-$linkedin-color             : #007bb6;
-$mastodon-color             : #6364ff;
-$orcid-color                : #a6ce39;
-$pinterest-color            : #cb2027;
-$rss-color                  : #fa9b39;
-$soundcloud-color           : #ff3300;
-$stackoverflow-color        : #fe7a15;
-$tumblr-color               : #32506d;
-$twitter-color              : #55acee;
-$vimeo-color                : #1ab7ea;
-$vine-color                 : #00bf8f;
-$youtube-color              : #bb0000;
-$xing-color                 : #006567;
-
-/* ==========================================================================
-   CUSTOM STYLES FOR HERO, BUTTONS, CARDS
-   ========================================================================== */
-/* ==========================================================================
-   CUSTOM STYLES FOR HERO, BUTTONS, CARDS
-   ========================================================================== */
-
-/* === HERO BUTTONS === */
-.hero-buttons {
-  margin-top: 20px;
-}
-
-.btn-primary, .btn-secondary {
-  display: inline-block;
-  padding: 12px 26px;
-  margin-right: 10px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.2s ease;
-}
-
-.btn-primary {
-  background: #2563eb;
-  color: white;
-}
-
-.btn-primary:hover {
-  background: #1e4ed8;
-  transform: translateY(-2px);
-}
-
-.btn-secondary {
-  background: #f3f4f6;
-  color: #111;
-}
-
-.btn-secondary:hover {
-  background: #e5e7eb;
-  transform: translateY(-2px);
-}
-
-/* === SECTION SPACING === */
-.section {
-  max-width: 800px;
-  margin: 40px auto;
-  line-height: 1.7;
-  font-size: 17px;
-}
-
-/* === CARDS (RESEARCH) === */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.card {
-  background: white;
-  padding: 25px;
-  border-radius: 14px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  transition: all 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-}
-
-/* === IMAGE STYLING === */
-.lab-img {
-  width: 100%;
-  border-radius: 14px;
-  margin-top: 20px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-}
-
-/* === TYPOGRAPHY IMPROVEMENTS === */
-h1 {
-  font-size: 42px;
-  font-weight: 700;
-}
-
-h2 {
-  margin-top: 60px;
-  font-size: 28px;
-}
-
-h3 {
-  color: #555;
-  font-weight: 400;
-}
-
-/* === GLOBAL COLORS === */
+/* 🌐 Background */
 body {
   background-color: #f8fafc;
   color: #111827;
 }
 
-/* Links */
+/* 📄 Content width + readability */
+.page__content {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* 🎯 HERO SECTION */
+.page__hero--overlay {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("/images/meshorer-lab.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Title */
+.page__title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+/* Subtitle */
+.page__lead {
+  font-size: 20px;
+  color: #e5e7eb;
+}
+
+/* 🔘 BUTTONS */
+.btn {
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-weight: 600;
+}
+
+/* Primary button */
+.btn--primary {
+  background-color: #2563eb;
+  border: none;
+}
+
+.btn--primary:hover {
+  background-color: #1e40af;
+}
+
+/* Secondary button */
+.btn--inverse {
+  background-color: white;
+  color: #111;
+}
+
+/* 🧱 SECTION HEADINGS */
+.page__content h2 {
+  margin-top: 60px;
+  font-size: 28px;
+}
+
+/* 🧩 TURN LIST INTO CARDS */
+.page__content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.page__content ul li {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.page__content ul li:hover {
+  transform: translateY(-5px);
+}
+
+/* 🖼 IMAGE STYLING */
+.page__content img {
+  border-radius: 14px;
+  margin-top: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* 🔗 LINKS */
 a {
   color: #2563eb;
 }
@@ -212,44 +140,7 @@ a:hover {
   color: #1e40af;
 }
 
-/* === HERO IMPROVEMENT === */
-.page__hero--overlay {
-  background-blend-mode: multiply;
-}
-
-/* === SECTION BACKGROUNDS === */
-.section {
-  background: white;
-  padding: 30px;
-  border-radius: 16px;
-}
-
-/* === BUTTON COLORS UPDATE === */
-.btn-primary {
-  background: #2563eb;
-}
-
-.btn-primary:hover {
-  background: #1e40af;
-}
-
-/* === CARD COLORS === */
-.card {
-  background: white;
-  border: 1px solid #e5e7eb;
-}
-
-/* === HEADINGS === */
-h1, h2 {
-  color: #111827;
-}
-
-/* === ADD SUBTLE PAGE WIDTH CONTROL === */
-.page {
-  max-width: 1100px;
-  margin: auto;
-}
-/* Smooth transitions everywhere */
+/* ✨ SMOOTH UI */
 * {
   transition: all 0.2s ease;
 }
