@@ -196,3 +196,56 @@ h3 {
   color: #555;
   font-weight: 400;
 }
+
+/* === GLOBAL COLORS === */
+body {
+  background-color: #f8fafc;
+  color: #111827;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+}
+
+a:hover {
+  color: #1e40af;
+}
+
+/* === HERO IMPROVEMENT === */
+.page__hero--overlay {
+  background-blend-mode: multiply;
+}
+
+/* === SECTION BACKGROUNDS === */
+.section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+/* === BUTTON COLORS UPDATE === */
+.btn-primary {
+  background: #2563eb;
+}
+
+.btn-primary:hover {
+  background: #1e40af;
+}
+
+/* === CARD COLORS === */
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+}
+
+/* === HEADINGS === */
+h1, h2 {
+  color: #111827;
+}
+
+/* === ADD SUBTLE PAGE WIDTH CONTROL === */
+.page {
+  max-width: 1100px;
+  margin: auto;
+}
