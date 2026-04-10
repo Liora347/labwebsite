@@ -11,7 +11,8 @@ header:
 
 # Epigenetics, Stem Cells, and Neurons
 
-### Understanding genome regulation, cell identity, and disease through epigenetics.
+{: .page__lead}
+Understanding genome regulation, cell identity, and disease through epigenetics.
 
 <div class="hero-buttons">
   <a href="/research/" class="btn btn--primary">Explore Research</a>
