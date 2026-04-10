@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+
+  <!-- Modern font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 
@@ -22,11 +26,13 @@
 </nav>
 
 {{ content }}
+
 <script>
 window.addEventListener("scroll", function() {
   const nav = document.querySelector(".navbar");
   if (window.scrollY > 50) {
-    nav.style.background = "white";
+    nav.style.background = "rgba(255,255,255,0.8)";
+    nav.style.backdropFilter = "blur(10px)";
     nav.style.boxShadow = "0 2px 10px rgba(0,0,0,0.1)";
     nav.querySelectorAll("a, .nav-logo").forEach(el => el.style.color = "black");
   } else {
@@ -36,5 +42,6 @@ window.addEventListener("scroll", function() {
   }
 });
 </script>
+
 </body>
 </html>
