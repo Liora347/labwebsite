@@ -108,3 +108,5 @@ sass:
 permalink: /:categories/:title/
 
 timezone: Etc/UTC
+
+theme: jekyll-theme-primer
