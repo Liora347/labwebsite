@@ -2,9 +2,10 @@
 layout: default
 title: "Eran Meshorer Lab"
 permalink: /
+classes: wide
 ---
 
-<div class="hero">
+<div class="hero full-bleed">
   <img src="{{ '/images/meshorer-lab.jpg' | relative_url }}">
   <div class="hero-overlay"></div>
 
