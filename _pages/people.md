@@ -2,165 +2,149 @@
 layout: single
 title: "People"
 permalink: /people/
+author_profile: false
 ---
 
-<section class="people-list">
+<section class="people-page">
 
 <h2>Principal Investigator</h2>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Eran.jpg">
-  <div>
+<div class="people-grid">
+  <div class="person-card">
+    <img src="/labwebsite/images/Eran.jpg">
     <h3>Eran Meshorer</h3>
     <p class="role">Principal Investigator</p>
-    <p><a href="mailto:eran.meshorer@mail.huji.ac.il">eran.meshorer[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:eran.meshorer@mail.huji.ac.il">Email</a></p>
     <p><a href="#">CV</a></p>
   </div>
 </div>
 
 <h2>Staff</h2>
+<div class="people-grid">
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Malka.jpeg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Malka.jpeg">
     <h3>Malka Nissim-Rafinia</h3>
     <p class="role">Lab Manager</p>
-    <p><a href="mailto:malkar@cc.huji.ac.il">malkar[at]cc.huji.ac.il</a></p>
+    <p><a href="mailto:malkar@cc.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Yael.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Yael.jpg">
     <h3>Yael Riback</h3>
     <p class="role">Lab Administrator</p>
-    <p><a href="mailto:yaelrib@savion.huji.ac.il">yaelrib[at]savion.huji.ac.il</a></p>
+    <p><a href="mailto:yaelrib@savion.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Ayelet.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Ayelet.jpg">
     <h3>Ayelet-Hashahar Cohen</h3>
-    <p class="role">Research Associate (Teacher-Researcher)</p>
-    <p><a href="mailto:ayelet.h.s@gmail.com">ayelet.h.s[at]gmail.com</a></p>
+    <p class="role">Research Associate</p>
+    <p><a href="mailto:ayelet.h.s@gmail.com">Email</a></p>
   </div>
+
 </div>
 
 <h2>Postdoctoral Fellows</h2>
+<div class="people-grid">
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Walaa.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Walaa.jpg">
     <h3>Walaa Oweis</h3>
     <p class="role">Postdoctoral Fellow</p>
-    <p><a href="mailto:walaa.oweis@mail.huji.ac.il">walaa.oweis[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:walaa.oweis@mail.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Tamar.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Tamar.jpg">
     <h3>Tamar Segal</h3>
     <p class="role">Postdoctoral Fellow</p>
-    <p><a href="mailto:tamar.segal@mail.huji.ac.il">tamar.segal[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:tamar.segal@mail.huji.ac.il">Email</a></p>
   </div>
+
 </div>
 
 <h2>PhD Students</h2>
+<div class="people-grid">
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Elad.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Elad.jpg">
     <h3>Elad Dvir</h3>
-    <p class="role">Joint PhD student with Sagiv Shifman</p>
-    <p><a href="mailto:elad.dvir@mail.huji.ac.il">elad.dvir[at]mail.huji.ac.il</a></p>
+    <p class="role">PhD Student</p>
+    <p><a href="mailto:elad.dvir@mail.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Shalhevet.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Shalhevet.jpg">
     <h3>Shalhevet Klemfner</h3>
     <p class="role">PhD Student</p>
-    <p><a href="mailto:shalheve.klemfner@mail.huji.ac.il">shalheve.klemfner[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:shalheve.klemfner@mail.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Avital.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Avital.jpg">
     <h3>Avital Pushett</h3>
     <p class="role">PhD Student</p>
-    <p><a href="mailto:avital.pushett@mail.huji.ac.il">avital.pushett[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:avital.pushett@mail.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Tzukit.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Tzukit.jpg">
     <h3>Tzukit Tal</h3>
-    <p class="role">Joint PhD student with TEVA</p>
-    <p><a href="mailto:Tzukit.Tal02@teva.co.il">Tzukit.Tal02[at]teva.co.il</a></p>
+    <p class="role">Joint PhD Student (TEVA)</p>
+    <p><a href="mailto:Tzukit.Tal02@teva.co.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Ziv.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Ziv.jpg">
     <h3>Ziv Brodie</h3>
     <p class="role">PhD Student</p>
-    <p><a href="mailto:Ziv@brodienet.com">Ziv[at]brodienet.com</a></p>
+    <p><a href="mailto:Ziv@brodienet.com">Email</a></p>
   </div>
+
 </div>
 
 <h2>MSc Students</h2>
+<div class="people-grid">
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Eden.png">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Eden.png">
     <h3>Eden Mishne</h3>
     <p class="role">MSc Student</p>
-    <p><a href="mailto:eden.mishne@mail.huji.ac.il">eden.mishne[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:eden.mishne@mail.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/ShiraH.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/ShiraH.jpg">
     <h3>Shira Horev</h3>
     <p class="role">MSc Student</p>
-    <p><a href="mailto:shirahorev1195@gmail.com">shirahorev1195[at]gmail.com</a></p>
+    <p><a href="mailto:shirahorev1195@gmail.com">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/ShiraS.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/ShiraS.jpg">
     <h3>Shira Siegel</h3>
     <p class="role">MSc Student</p>
-    <p><a href="mailto:shira.siegel@mail.huji.ac.il">shira.siegel[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:shira.siegel@mail.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Riki.jpeg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Riki.jpeg">
     <h3>Rivka Masar</h3>
     <p class="role">MSc Student</p>
-    <p><a href="mailto:rivka.masar@mail.huji.ac.il">rivka.masar[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:rivka.masar@mail.huji.ac.il">Email</a></p>
   </div>
-</div>
 
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Liora.jpg">
-  <div>
+  <div class="person-card">
+    <img src="/labwebsite/images/Liora.jpg">
     <h3>Liora Feshbach</h3>
     <p class="role">MSc Student</p>
-    <p><a href="mailto:liora.feshbach@mail.huji.ac.il">liora.feshbach[at]mail.huji.ac.il</a></p>
+    <p><a href="mailto:liora.feshbach@mail.huji.ac.il">Email</a></p>
   </div>
+
 </div>
 
+</section>
 <h2>Alumni</h2>
 
 <div class="person-row">
