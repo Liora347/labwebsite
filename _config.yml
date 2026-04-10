@@ -10,7 +10,7 @@ baseurl: "/labwebsite"
 repository: "liora347/labwebsite"
 
 # Site Author
-author:
+<div class="person-row person-with-image">
   <img src="/labwebsite/images/Eran.jpg">
   name: "Professor Eran Meshorer"
   bio: "Short biography for the left-hand sidebar"
