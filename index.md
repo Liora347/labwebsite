@@ -1,39 +1,50 @@
 ---
-
-layout: splash
+layout: default
 title: "Eran Meshorer Lab"
 permalink: /
-header:
-  overlay_color: "#000"
-  overlay_filter: 0.6
-  overlay_image: /images/meshorer-lab.jpg
 ---
 
-# Epigenetics, Stem Cells, and Neurons
+<div class="hero">
+  <img src="{{ '/images/meshorer-lab.jpg' | relative_url }}">
+  <div class="hero-overlay"></div>
 
-{: .page__lead}
-Understanding genome regulation, cell identity, and disease through epigenetics.
+  <div class="hero-content">
+    <h1>Eran Meshorer Lab</h1>
+    <p>Epigenetics, Stem Cells, and Neurons</p>
 
-<div class="hero-buttons">
-  <a href="/research/" class="btn btn--primary">Explore Research</a>
-  <a href="/contact/" class="btn btn--inverse">Join the Lab</a>
+    <div class="hero-buttons">
+      <a href="/labwebsite/research/" class="btn btn-primary">Explore Research</a>
+      <a href="/labwebsite/contact/" class="btn btn-secondary">Join the Lab</a>
+    </div>
+  </div>
 </div>
-
----
 
 ## Research Overview
 
-The Meshorer Lab studies how **chromatin structure and epigenetic mechanisms regulate cellular identity, development, and disease**.
+We study how **chromatin structure and epigenetic mechanisms regulate cellular identity, development, and disease**.
 
-We combine experimental and computational approaches to explore genome plasticity in stem cells and neurons.
+Our lab combines experimental and computational approaches to explore genome plasticity in stem cells and neurons.
 
 ---
 
 ## Research Highlights
 
-- **Chromatin dynamics in pluripotent stem cells**  
-- **Modeling neurodegenerative diseases (e.g. Huntington’s disease)**  
-- **Reconstruction of ancient DNA methylation patterns**
+<div class="cards">
+  <div class="card">
+    <h3>Chromatin Dynamics</h3>
+    <p>Understanding genome organization in pluripotent stem cells.</p>
+  </div>
+
+  <div class="card">
+    <h3>Neurodegeneration</h3>
+    <p>Modeling diseases such as Huntington’s using epigenetic tools.</p>
+  </div>
+
+  <div class="card">
+    <h3>Paleo-epigenetics</h3>
+    <p>Reconstructing ancient DNA methylation patterns.</p>
+  </div>
+</div>
 
 ---
 
@@ -41,12 +52,10 @@ We combine experimental and computational approaches to explore genome plasticit
 
 <img src="{{ '/images/meshorer-lab.jpg' | relative_url }}">
 
-
-
 ---
 
 ## Join Us
 
 We are always looking for motivated students and researchers.
 
-**eran.meshorer@mail.huji.ac.il**
+📧 eran.meshorer@mail.huji.ac.il
