@@ -205,3 +205,25 @@ section {
   border-bottom: none;
   background: white;
 }
+/* ========================
+   FIX HUGE TOP GAP
+======================== */
+
+/* Pull hero up under navbar */
+.initial-content {
+  padding-top: 0 !important;
+}
+
+/* Make navbar float over hero */
+.masthead {
+  position: absolute;
+  width: 100%;
+  background: transparent !important;
+  box-shadow: none !important;
+  z-index: 10;
+}
+
+/* Make nav text visible on image */
+.masthead a {
+  color: white !important;
+}
