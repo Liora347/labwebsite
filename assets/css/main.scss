@@ -149,3 +149,39 @@ section {
   border-radius: 16px;
   margin-top: 30px;
 }
+/* ========================
+   NAVBAR (POLISHED)
+======================== */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.nav-logo {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
