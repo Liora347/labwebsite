@@ -9,7 +9,7 @@ permalink: /people/
 <h2>Principal Investigator</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Eran.jpg">
+  <img src="/labwebsite/images/Eran.jpg">
   <div>
     <h3>Eran Meshorer</h3>
     <p class="role">Principal Investigator</p>
@@ -21,7 +21,7 @@ permalink: /people/
 <h2>Staff</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Malka.jpeg">
+  <img src="/labwebsite/images/Malka.jpeg">
   <div>
     <h3>Malka Nissim-Rafinia</h3>
     <p class="role">Lab Manager</p>
@@ -30,7 +30,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Yael.jpg">
+  <img src="/labwebsite/images/Yael.jpg">
   <div>
     <h3>Yael Riback</h3>
     <p class="role">Lab Administrator</p>
@@ -39,7 +39,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Ayelet.jpg">
+  <img src="/labwebsite/images/Ayelet.jpg">
   <div>
     <h3>Ayelet-Hashahar Cohen</h3>
     <p class="role">Research Associate (Teacher-Researcher)</p>
@@ -50,7 +50,7 @@ permalink: /people/
 <h2>Postdoctoral Fellows</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Walaa.jpg">
+  <img src="/labwebsite/images/Walaa.jpg">
   <div>
     <h3>Walaa Oweis</h3>
     <p class="role">Postdoctoral Fellow</p>
@@ -59,7 +59,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Tamar.jpg">
+  <img src="/labwebsite/images/Tamar.jpg">
   <div>
     <h3>Tamar Segal</h3>
     <p class="role">Postdoctoral Fellow</p>
@@ -70,7 +70,7 @@ permalink: /people/
 <h2>PhD Students</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Elad.jpg">
+  <img src="/labwebsite/images/Elad.jpg">
   <div>
     <h3>Elad Dvir</h3>
     <p class="role">Joint PhD student with Sagiv Shifman</p>
@@ -79,7 +79,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Shalhevet.jpg">
+  <img src="/labwebsite/images/Shalhevet.jpg">
   <div>
     <h3>Shalhevet Klemfner</h3>
     <p class="role">PhD Student</p>
@@ -88,7 +88,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Avital.jpg">
+  <img src="/labwebsite/images/Avital.jpg">
   <div>
     <h3>Avital Pushett</h3>
     <p class="role">PhD Student</p>
@@ -97,7 +97,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Tzukit.jpg">
+  <img src="/labwebsite/images/Tzukit.jpg">
   <div>
     <h3>Tzukit Tal</h3>
     <p class="role">Joint PhD student with TEVA</p>
@@ -106,7 +106,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Ziv.jpg">
+  <img src="/labwebsite/images/Ziv.jpg">
   <div>
     <h3>Ziv Brodie</h3>
     <p class="role">PhD Student</p>
@@ -117,7 +117,7 @@ permalink: /people/
 <h2>MSc Students</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Eden.png">
+  <img src="/labwebsite/images/Eden.png">
   <div>
     <h3>Eden Mishne</h3>
     <p class="role">MSc Student</p>
@@ -126,7 +126,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/ShiraH.jpg">
+  <img src="/labwebsite/images/ShiraH.jpg">
   <div>
     <h3>Shira Horev</h3>
     <p class="role">MSc Student</p>
@@ -135,7 +135,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/ShiraS.jpg">
+  <img src="/labwebsite/images/ShiraS.jpg">
   <div>
     <h3>Shira Siegel</h3>
     <p class="role">MSc Student</p>
@@ -144,7 +144,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Riki.jpeg">
+  <img src="/labwebsite/images/Riki.jpeg">
   <div>
     <h3>Rivka Masar</h3>
     <p class="role">MSc Student</p>
@@ -153,7 +153,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/people/Liora.jpg">
+  <img src="/labwebsite/images/Liora.jpg">
   <div>
     <h3>Liora Feshbach</h3>
     <p class="role">MSc Student</p>
