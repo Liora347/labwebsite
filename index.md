@@ -20,7 +20,11 @@ permalink: /
 </div>
 
 <section class="content-section">
-  <h2>Research Overview</h2>
+  <h2>What We Study</h2>
+  <p class="section-subtitle">
+    Understanding how genome organization shapes life.
+  </p>
+
   <p>
     We study how <strong>chromatin structure and epigenetic mechanisms regulate cellular identity, development, and disease</strong>.
   </p>
