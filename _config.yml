@@ -1,4 +1,6 @@
-# Basic Site Settings
+# ---------------------------
+# SITE SETTINGS
+# ---------------------------
 locale: "en-US"
 title: "Eran Meshorer Lab"
 title_separator: "-"
@@ -9,16 +11,27 @@ url: "https://liora347.github.io"
 baseurl: "/labwebsite"
 repository: "liora347/labwebsite"
 
-# IMPORTANT: this enables the PI sidebar
+# ---------------------------
+# THEME (IMPORTANT)
+# ---------------------------
+remote_theme: "mmistakes/minimal-mistakes"
+
+# ---------------------------
+# AUTHOR (PI SIDEBAR)
+# ---------------------------
 author: Eran Meshorer
 author_profile: true
 
-# Site Settings
+# ---------------------------
+# SITE BEHAVIOR
+# ---------------------------
 breadcrumbs: false
 future: true
 read_more: "disabled"
 
-# Collections
+# ---------------------------
+# COLLECTIONS
+# ---------------------------
 collections:
   teaching:
     output: true
@@ -33,7 +46,9 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults
+# ---------------------------
+# DEFAULTS (sidebar enabled)
+# ---------------------------
 defaults:
   - scope:
       path: ""
@@ -64,21 +79,28 @@ defaults:
       layout: single
       author_profile: true
 
-# Markdown
+# ---------------------------
+# MARKDOWN
+# ---------------------------
 markdown: kramdown
 highlighter: rouge
 
 kramdown:
   input: GFM
 
-# Plugins (IMPORTANT for GitHub Pages compatibility)
+# ---------------------------
+# PLUGINS (GitHub Pages safe)
+# ---------------------------
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
 
-# Include / Exclude
+# ---------------------------
+# FILE HANDLING
+# ---------------------------
 include:
   - _pages
 
@@ -88,15 +110,16 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Sass
+# ---------------------------
+# STYLING
+# ---------------------------
 sass:
   sass_dir: _sass
   style: compressed
 
-# Output
+# ---------------------------
+# URL STYLE
+# ---------------------------
 permalink: /:categories/:title/
 
 timezone: Etc/UTC
-
-# IMPORTANT: DO NOT use jekyll-theme-primer with this setup
-# Theme is handled via remote_theme in GitHub Pages OR your theme config
