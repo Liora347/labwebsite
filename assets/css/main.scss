@@ -234,3 +234,44 @@ h2 {
 .person-with-image div {
   flex: 1;
 }
+
+.people-page h2 {
+  margin-top: 40px;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.person-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.person-card:hover {
+  transform: translateY(-5px);
+}
+
+.person-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.person-card h3 {
+  margin: 8px 0 4px;
+}
+
+.person-card .role {
+  font-size: 0.9rem;
+  color: #666;
+}
