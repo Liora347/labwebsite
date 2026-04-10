@@ -12,22 +12,26 @@ baseurl: "/labwebsite"
 repository: "liora347/labwebsite"
 
 # ---------------------------
-# THEME (IMPORTANT)
+# THEME (CRITICAL FIX)
 # ---------------------------
 remote_theme: "mmistakes/minimal-mistakes"
 
 # ---------------------------
-# AUTHOR (PI SIDEBAR)
+# AUTHOR (sidebar system trigger)
 # ---------------------------
 author: Eran Meshorer
 author_profile: true
 
 # ---------------------------
-# SITE BEHAVIOR
+# BASIC SETTINGS
 # ---------------------------
 breadcrumbs: false
 future: true
 read_more: "disabled"
+
+permalink: /:categories/:title/
+
+timezone: Etc/UTC
 
 # ---------------------------
 # COLLECTIONS
@@ -47,7 +51,7 @@ collections:
     permalink: /:collection/:path/
 
 # ---------------------------
-# DEFAULTS (sidebar enabled)
+# DEFAULTS (sidebar ON everywhere)
 # ---------------------------
 defaults:
   - scope:
@@ -63,21 +67,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
 
 # ---------------------------
 # MARKDOWN
@@ -89,7 +78,7 @@ kramdown:
   input: GFM
 
 # ---------------------------
-# PLUGINS (GitHub Pages safe)
+# PLUGINS
 # ---------------------------
 plugins:
   - jekyll-remote-theme
@@ -99,7 +88,7 @@ plugins:
   - jemoji
 
 # ---------------------------
-# FILE HANDLING
+# FILES
 # ---------------------------
 include:
   - _pages
@@ -116,10 +105,3 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
-
-# ---------------------------
-# URL STYLE
-# ---------------------------
-permalink: /:categories/:title/
-
-timezone: Etc/UTC
