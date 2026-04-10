@@ -2,7 +2,6 @@
 layout: default
 title: "Eran Meshorer Lab"
 permalink: /
-classes: wide
 ---
 
 <div class="hero full-bleed">
