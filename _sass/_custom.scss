@@ -1,50 +1,11 @@
-/* ==========================================================================
-   SHARED THEME SETTINGS
-   ========================================================================== */
-
-/* TYPOGRAPHY */
-$doc-font-size: 16;
-$paragraph-indent: false;
-$indent-var: 1.3em;
-
-$serif: Georgia, Times, serif;
-$sans-serif: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace: Monaco, Consolas, "Lucida Console", monospace;
-
-$global-font-family: $sans-serif;
-$header-font-family: $sans-serif;
-$caption-font-family: $serif;
-
-
-$small: 600px !default;
-$medium: 768px !default;
-$medium-wide: 900px !default;
-$large: 925px !default;
-$x-large: 1280px !default;
-
-/* GRID */
-$susy: (
-  columns: 12,
-  column-width: 120px,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: after,
-  container: $large,
-  global-box-sizing: border-box,
-);
-
-/* ==========================================================================
-   MODERN CUSTOM STYLING
-   ========================================================================== */
-
-/* 🌐 Background */
+/* 🌐 GLOBAL BACKGROUND */
 body {
-  background-color: #f8fafc;
+  background: linear-gradient(to bottom, #f8fafc, #eef2f7);
   color: #111827;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-/* 📄 Content width + readability */
+/* 📄 CENTER CONTENT */
 .page__content {
   max-width: 900px;
   margin: 0 auto;
@@ -54,16 +15,19 @@ body {
 
 /* 🎯 HERO SECTION */
 .page__hero--overlay {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-              url("/images/meshorer-lab.jpg");
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+              url("/labwebsite/images/meshorer-lab.jpg");
   background-size: cover;
   background-position: center;
+  padding: 120px 20px;
+  text-align: center;
 }
 
 /* Title */
 .page__title {
-  font-size: 44px;
+  font-size: 48px;
   font-weight: 700;
+  color: white;
 }
 
 /* Subtitle */
@@ -73,60 +37,66 @@ body {
 }
 
 /* 🔘 BUTTONS */
-.btn {
-  border-radius: 999px;
-  padding: 10px 22px;
-  font-weight: 600;
+.hero-buttons {
+  margin-top: 20px;
 }
 
-/* Primary button */
+.btn {
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+/* Primary */
 .btn--primary {
-  background-color: #2563eb;
-  border: none;
+  background: #2563eb;
+  color: white;
 }
 
 .btn--primary:hover {
-  background-color: #1e40af;
+  background: #1e40af;
 }
 
-/* Secondary button */
+/* Secondary */
 .btn--inverse {
-  background-color: white;
+  background: white;
   color: #111;
 }
 
 /* 🧱 SECTION HEADINGS */
 .page__content h2 {
   margin-top: 60px;
-  font-size: 28px;
+  font-size: 30px;
 }
 
-/* 🧩 TURN LIST INTO CARDS */
+/* 🧩 CARD STYLE LIST */
 .page__content ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
 }
 
 .page__content ul li {
   background: white;
   padding: 20px;
   border-radius: 14px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  transition: all 0.2s ease;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.2s ease;
 }
 
 .page__content ul li:hover {
   transform: translateY(-5px);
 }
 
-/* 🖼 IMAGE STYLING */
+/* 🖼 IMAGE */
 .page__content img {
   border-radius: 14px;
   margin-top: 20px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 /* 🔗 LINKS */
@@ -136,9 +106,4 @@ a {
 
 a:hover {
   color: #1e40af;
-}
-
-/* ✨ SMOOTH UI */
-* {
-  transition: all 0.2s ease;
 }
