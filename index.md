@@ -6,7 +6,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: 0.6
-  overlay_image: /images/meshorer-lab.jpg
+  overlay_image: /labwebsite/images/meshorer-lab.jpg
 ---
 
 # Epigenetics, Stem Cells, and Neurons
@@ -39,7 +39,7 @@ We combine experimental and computational approaches to explore genome plasticit
 
 ## Our Lab
 
-<img src="/images/meshorer-lab.jpg" class="lab-img">
+<img src="/labwebsite/images/meshorer-lab.jpg" class="lab-img">
 
 
 
