@@ -11,7 +11,7 @@ repository: "liora347/labwebsite"
 
 # Site Author
 author:
-  avatar: <img src="/labwebsite/images/Eran.jpg">
+  <img src="/labwebsite/images/Eran.jpg">
   name: "Professor Eran Meshorer"
   bio: "Short biography for the left-hand sidebar"
   location: "The Hebrew University of Jerusalem"
