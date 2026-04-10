@@ -8,109 +8,157 @@ permalink: /people/
 
 <h2>Principal Investigator</h2>
 
-<div class="person-row">
-  <h3>Eran Meshorer</h3>
-  <p class="role">Principal Investigator</p>
-  <p><a href="mailto:eran.meshorer@mail.huji.ac.il">eran.meshorer[at]mail.huji.ac.il</a></p>
-  <p><a href="#">CV</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Eran.jpg">
+  <div>
+    <h3>Eran Meshorer</h3>
+    <p class="role">Principal Investigator</p>
+    <p><a href="mailto:eran.meshorer@mail.huji.ac.il">eran.meshorer[at]mail.huji.ac.il</a></p>
+    <p><a href="#">CV</a></p>
+  </div>
 </div>
 
 <h2>Staff</h2>
 
-<div class="person-row">
-  <h3>Malka Nissim-Rafinia</h3>
-  <p class="role">Lab Manager</p>
-  <p><a href="mailto:malkar@cc.huji.ac.il">malkar[at]cc.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Malka.jpeg">
+  <div>
+    <h3>Malka Nissim-Rafinia</h3>
+    <p class="role">Lab Manager</p>
+    <p><a href="mailto:malkar@cc.huji.ac.il">malkar[at]cc.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Yael Riback</h3>
-  <p class="role">Lab Administrator</p>
-  <p><a href="mailto:yaelrib@savion.huji.ac.il">yaelrib[at]savion.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Yael.jpg">
+  <div>
+    <h3>Yael Riback</h3>
+    <p class="role">Lab Administrator</p>
+    <p><a href="mailto:yaelrib@savion.huji.ac.il">yaelrib[at]savion.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Ayelet-Hashahar Cohen</h3>
-  <p class="role">Research Associate (Teacher-Researcher)</p>
-  <p><a href="mailto:ayelet.h.s@gmail.com">ayelet.h.s[at]gmail.com</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Ayelet.jpg">
+  <div>
+    <h3>Ayelet-Hashahar Cohen</h3>
+    <p class="role">Research Associate (Teacher-Researcher)</p>
+    <p><a href="mailto:ayelet.h.s@gmail.com">ayelet.h.s[at]gmail.com</a></p>
+  </div>
 </div>
 
 <h2>Postdoctoral Fellows</h2>
 
-<div class="person-row">
-  <h3>Walaa Oweis</h3>
-  <p class="role">Postdoctoral Fellow</p>
-  <p><a href="mailto:walaa.oweis@mail.huji.ac.il">walaa.oweis[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Walaa.jpg">
+  <div>
+    <h3>Walaa Oweis</h3>
+    <p class="role">Postdoctoral Fellow</p>
+    <p><a href="mailto:walaa.oweis@mail.huji.ac.il">walaa.oweis[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Tamar Segal</h3>
-  <p class="role">Postdoctoral Fellow</p>
-  <p><a href="mailto:tamar.segal@mail.huji.ac.il">tamar.segal[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Tamar.jpg">
+  <div>
+    <h3>Tamar Segal</h3>
+    <p class="role">Postdoctoral Fellow</p>
+    <p><a href="mailto:tamar.segal@mail.huji.ac.il">tamar.segal[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
 <h2>PhD Students</h2>
 
-<div class="person-row">
-  <h3>Elad Dvir</h3>
-  <p class="role">Joint PhD student with Sagiv Shifman</p>
-  <p><a href="mailto:elad.dvir@mail.huji.ac.il">elad.dvir[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Elad.jpg">
+  <div>
+    <h3>Elad Dvir</h3>
+    <p class="role">Joint PhD student with Sagiv Shifman</p>
+    <p><a href="mailto:elad.dvir@mail.huji.ac.il">elad.dvir[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Shalhevet Klemfner</h3>
-  <p class="role">PhD Student</p>
-  <p><a href="mailto:shalheve.klemfner@mail.huji.ac.il">shalheve.klemfner[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Shalhevet.jpg">
+  <div>
+    <h3>Shalhevet Klemfner</h3>
+    <p class="role">PhD Student</p>
+    <p><a href="mailto:shalheve.klemfner@mail.huji.ac.il">shalheve.klemfner[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Avital Pushett</h3>
-  <p class="role">PhD Student</p>
-  <p><a href="mailto:avital.pushett@mail.huji.ac.il">avital.pushett[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Avital.jpg">
+  <div>
+    <h3>Avital Pushett</h3>
+    <p class="role">PhD Student</p>
+    <p><a href="mailto:avital.pushett@mail.huji.ac.il">avital.pushett[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Tzukit Tal</h3>
-  <p class="role">Joint PhD student with TEVA</p>
-  <p><a href="mailto:Tzukit.Tal02@teva.co.il">Tzukit.Tal02[at]teva.co.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Tzukit.jpg">
+  <div>
+    <h3>Tzukit Tal</h3>
+    <p class="role">Joint PhD student with TEVA</p>
+    <p><a href="mailto:Tzukit.Tal02@teva.co.il">Tzukit.Tal02[at]teva.co.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Ziv Brodie</h3>
-  <p class="role">PhD Student</p>
-  <p><a href="mailto:Ziv@brodienet.com">Ziv[at]brodienet.com</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Ziv.jpg">
+  <div>
+    <h3>Ziv Brodie</h3>
+    <p class="role">PhD Student</p>
+    <p><a href="mailto:Ziv@brodienet.com">Ziv[at]brodienet.com</a></p>
+  </div>
 </div>
 
 <h2>MSc Students</h2>
 
-<div class="person-row">
-  <h3>Eden Mishne</h3>
-  <p class="role">MSc Student</p>
-  <p><a href="mailto:eden.mishne@mail.huji.ac.il">eden.mishne[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Eden.png">
+  <div>
+    <h3>Eden Mishne</h3>
+    <p class="role">MSc Student</p>
+    <p><a href="mailto:eden.mishne@mail.huji.ac.il">eden.mishne[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Shira Horev</h3>
-  <p class="role">MSc Student</p>
-  <p><a href="mailto:shirahorev1195@gmail.com">shirahorev1195[at]gmail.com</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/ShiraH.jpg">
+  <div>
+    <h3>Shira Horev</h3>
+    <p class="role">MSc Student</p>
+    <p><a href="mailto:shirahorev1195@gmail.com">shirahorev1195[at]gmail.com</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Shira Siegel</h3>
-  <p class="role">MSc Student</p>
-  <p><a href="mailto:shira.siegel@mail.huji.ac.il">shira.siegel[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/ShiraS.jpg">
+  <div>
+    <h3>Shira Siegel</h3>
+    <p class="role">MSc Student</p>
+    <p><a href="mailto:shira.siegel@mail.huji.ac.il">shira.siegel[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Rivka Masar</h3>
-  <p class="role">MSc Student</p>
-  <p><a href="mailto:rivka.masar@mail.huji.ac.il">rivka.masar[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Riki.jpeg">
+  <div>
+    <h3>Rivka Masar</h3>
+    <p class="role">MSc Student</p>
+    <p><a href="mailto:rivka.masar@mail.huji.ac.il">rivka.masar[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
-<div class="person-row">
-  <h3>Liora Feshbach</h3>
-  <p class="role">MSc Student</p>
-  <p><a href="mailto:liora.feshbach@mail.huji.ac.il">liora.feshbach[at]mail.huji.ac.il</a></p>
+<div class="person-row person-with-image">
+  <img src="/labwebsite/images/people/Liora.jpg">
+  <div>
+    <h3>Liora Feshbach</h3>
+    <p class="role">MSc Student</p>
+    <p><a href="mailto:liora.feshbach@mail.huji.ac.il">liora.feshbach[at]mail.huji.ac.il</a></p>
+  </div>
 </div>
 
 <h2>Alumni</h2>
@@ -119,8 +167,8 @@ permalink: /people/
   <p>Adva Maimon (MSc: 2008–2010), Product Manager, Sartorius.</p>
   <p>Hadas Hezroni (MSc: 2009–2011), Senior Bioinformatics Scientist, Cytoreason.</p>
   <p>Dr. Anna Mattout (Postdoc: 2008–2011), PI, University of Toulouse.</p>
-  <p>Dr. Shai Melcer (PhD: 2008–2012), Head, National Bio-Convergence Program, Israel Innovation Authority.</p>
-  <p>Dr. Badi Sri Sailaja (PhD: 2008–2013), Research Associate, Rutgers University.</p>
+  <p>Dr. Shai Melcer (PhD: 2008–2012), Israel Innovation Authority.</p>
+  <p>Dr. Badi Sri Sailaja (PhD: 2008–2013), Rutgers University.</p>
   <p>Dr. Adi Alajem (PhD: 2007–2013), Hebrew University.</p>
   <p>Dr. Raghu Ram (Postdoc: 2009–2013), University of Miami.</p>
   <p>Dr. Rachel Schyr (2012–2014), Hebrew University.</p>
