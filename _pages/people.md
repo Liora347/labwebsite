@@ -3,10 +3,7 @@ layout: single
 title: "People"
 permalink: /people/
 author_profile: true
-header:
-  overlay_image: /labwebsite/images/Eran.jpg
 ---
-
 <section class="people-list">
 
 <h2>Principal Investigator</h2>
