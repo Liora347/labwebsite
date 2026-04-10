@@ -9,7 +9,8 @@ url: "https://liora347.github.io"
 baseurl: "/labwebsite"
 repository: "liora347/labwebsite"
 
-author:
+author: Eran Meshorer
+author_profile: true
   avatar: "/labwebsite/images/Eran.jpg"
   name: "Professor Eran Meshorer"
   bio: "Short biography for the left-hand sidebar"
