@@ -9,20 +9,20 @@ url: "https://liora347.github.io"
 baseurl: "/labwebsite"
 repository: "liora347/labwebsite"
 
-# Site Author
-<div class="person-row person-with-image">
-  <img src="/labwebsite/images/Eran.jpg">
+author:
   name: "Professor Eran Meshorer"
   bio: "Short biography for the left-hand sidebar"
   location: "The Hebrew University of Jerusalem"
-  employer: "The Hebrew University of Jerusalem"
-  email: "eran.meshorer@mail.huji.ac.il"
-
-  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid: "https://orcid.org/yourorcidurl"
-  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=meshorer"
-
-  github: "academicpages"
+  email: "..."
+  links:
+    - label: "Google Scholar"
+      url: "#"
+    - label: "ORCID"
+      url: "#"
+    - label: "PubMed"
+      url: "#"
+    - label: "GitHub"
+      url: "#"
 
 # Site Settings
 breadcrumbs: false
