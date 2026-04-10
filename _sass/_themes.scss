@@ -15,8 +15,6 @@ $global-font-family: $sans-serif;
 $header-font-family: $sans-serif;
 $caption-font-family: $serif;
 
-/* BREAKPOINTS */
-@include breakpoint-set("to ems", true);
 
 $small: 600px !default;
 $medium: 768px !default;
