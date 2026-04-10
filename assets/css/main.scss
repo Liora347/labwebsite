@@ -4,7 +4,7 @@
 @import "jekyll-theme-primer";
 
 /* ========================
-   GLOBAL RESET / BASE
+   GLOBAL BASE
 ======================== */
 
 body {
@@ -15,14 +15,16 @@ body {
 }
 
 /* Break out of theme container */
-.page-content,
-.markdown-body {
+.page-content {
   max-width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* Typography */
+/* ========================
+   TYPOGRAPHY
+======================== */
+
 h1, h2, h3 {
   font-weight: 700;
 }
@@ -32,7 +34,10 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* Section spacing */
+/* ========================
+   SECTIONS
+======================== */
+
 section {
   padding: 80px 20px;
 }
@@ -42,8 +47,15 @@ section {
   margin: 0 auto;
 }
 
+/* Keep text readable */
+.page__content p {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ========================
-   HERO SECTION
+   HERO
 ======================== */
 
 .hero {
@@ -80,6 +92,12 @@ section {
 .hero p {
   font-size: 20px;
   color: #e5e7eb;
+}
+
+/* FULL WIDTH HERO */
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
 }
 
 /* ========================
@@ -139,7 +157,7 @@ section {
 }
 
 /* ========================
-   IMAGE SECTION
+   IMAGE
 ======================== */
 
 .lab-image {
@@ -151,15 +169,7 @@ section {
 }
 
 /* ========================
-   NAVBAR CLEANUP (optional)
-======================== */
-
-.site-header {
-  border-bottom: none;
-  background: white;
-}
-/* ========================
-   FORCE FULL-WIDTH LAYOUT
+   FORCE FULL WIDTH (THEME OVERRIDE)
 ======================== */
 
 .page {
@@ -181,7 +191,17 @@ section {
   margin: 0 !important;
 }
 
-/* Remove weird spacing above content */
+/* Remove gap under navbar */
 .initial-content {
   padding-top: 0 !important;
+}
+
+.masthead {
+  margin-bottom: 0 !important;
+}
+
+/* Optional cleanup */
+.site-header {
+  border-bottom: none;
+  background: white;
 }
