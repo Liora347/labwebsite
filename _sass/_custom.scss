@@ -191,3 +191,12 @@ html {
     transform: translateY(0);
   }
 }
+
+.person-row a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.person-row a:hover {
+  text-decoration: underline;
+}
