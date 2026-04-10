@@ -11,17 +11,7 @@ repository: "liora347/labwebsite"
 
 author: Eran Meshorer
 author_profile: true
-  avatar: "/labwebsite/images/Eran.jpg"
-  name: "Professor Eran Meshorer"
-  bio: "Short biography for the left-hand sidebar"
-  location: "The Hebrew University of Jerusalem"
-  email: "meshorer@huji.ac.il"
-  phone: "Tel. +972-2-6585161 (office); +972-2-6585143/4 (lab). Fax: +972-2-6586073"
-  links:
-    - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=UOQDc0UAAAAJ&hl=en"
-    - label: "ORCID"
-      url: "https://orcid.org/0000-0003-4777-986X"
+
 
 # Site Settings
 breadcrumbs: false
