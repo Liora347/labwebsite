@@ -8,7 +8,7 @@ permalink: /research/
 <!-- HERO IMAGE -->
 <div style="margin: 30px 0;">
   <img src="{{ '/images/meshorer lab 2024.jpg' | relative_url }}"
-       style="width:100%; border-radius:18px; box-shadow:0 10px 30px rgba(0,0,0,0.15);">
+       class="hero-research-img">
 </div>
 
 <!-- BINDDB -->
@@ -47,9 +47,8 @@ The Meshorer lab is studying:
 <!-- PROJECT 1 -->
 <h2>Chromatin plasticity in embryonic stem (ES) cells and in ES cell differentiation</h2>
 
-<div style="margin: 20px 0;">
-  <img src="{{ '/images/CPlasticity.jpg' | relative_url }}"
-       style="width:100%; border-radius:16px;">
+<img src="{{ '/images/CPlasticity.jpg' | relative_url }}"
+     class="research-img">
 </div>
 
 <p>
@@ -62,9 +61,8 @@ Using endogenously-labeled fluorescent libraries in mouse embryonic stem cells w
 <!-- PROJECT 2 -->
 <h2>Using human pluripotent stem cells to model neurodegenerative diseases</h2>
 
-<div style="margin: 20px 0;">
-  <img src="{{ '/images/HPSCs.png' | relative_url }}"
-       style="width:100%; border-radius:16px;">
+<img src="{{ '/images/HPSCs.png' | relative_url }}"
+     class="research-img">
 </div>
 
 <p>
