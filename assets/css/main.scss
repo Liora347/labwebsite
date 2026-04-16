@@ -329,3 +329,75 @@ h2 {
 .pub-btn:hover {
   opacity: 0.9;
 }
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background: #f6f7fb;
+}
+
+.contact-card {
+  background: white;
+  max-width: 700px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+}
+
+.name {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.contact-section {
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 25px;
+  margin-top: 20px;
+}
+
+.contact-item {
+  background: #f9fafc;
+  padding: 12px 14px;
+  border-radius: 10px;
+}
+
+.label {
+  display: block;
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 3px;
+}
+
+.value {
+  font-size: 1rem;
+  color: #222;
+}
+
+.value a {
+  color: #2b6cb0;
+  text-decoration: none;
+}
+
+.value a:hover {
+  text-decoration: underline;
+}
