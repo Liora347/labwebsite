@@ -6,7 +6,7 @@ permalink: /research/
 <h1>Research</h1>
 
 <!-- HERO IMAGE -->
-<div style="margin: 30px 0;">
+<div style="margin: 60px 0;">
   <img src="{{ '/images/meshorer lab 2024.jpg' | relative_url }}"
        class="hero-research-img">
 </div>
@@ -49,8 +49,7 @@ The Meshorer lab is studying:
 
 <img src="{{ '/images/CPlasticity.jpg' | relative_url }}"
      class="research-img">
-</div>
-
+     
 <p>
 Using endogenously-labeled fluorescent libraries in mouse embryonic stem cells which we generated, we can visualize differentiation events, nuclear body dynamics, protein binding kinetics, etc. and screen for pluripotency and differentiation relevant factors, in living cells.
 </p>
@@ -63,7 +62,6 @@ Using endogenously-labeled fluorescent libraries in mouse embryonic stem cells w
 
 <img src="{{ '/images/HPSCs.png' | relative_url }}"
      class="research-img">
-</div>
 
 <p>
 Here we are using human embryonic stem cells (hESCs) and human induced pluripotent stem cells (iPSCs) to model neurodegenerative diseases. We are studying poly-glutamine (PolyQ) diseases including Huntington's disease (HD) and Machado Joseph disease (MJD), as well as Parkinson's disease (PD).
