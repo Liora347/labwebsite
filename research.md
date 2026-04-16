@@ -6,7 +6,7 @@ permalink: /research/
 <h1>Research</h1>
 
 <!-- HERO IMAGE -->
-<div style="margin: 60px 0;">
+<div style="margin: 30px 0;">
   <img src="{{ '/images/meshorer lab 2024.jpg' | relative_url }}"
        class="hero-research-img">
 </div>
