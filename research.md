@@ -45,7 +45,7 @@ The Meshorer lab is studying:
 ---
 
 <!-- PROJECT 1 -->
-<h2>Chromatin plasticity in embryonic stem (ES) cells</h2>
+<h2>Chromatin plasticity in embryonic stem (ES) cells and in ES cell differentiation</h2>
 
 <div style="margin: 20px 0;">
   <img src="{{ '/images/CPlasticity.jpg' | relative_url }}"
@@ -53,16 +53,14 @@ The Meshorer lab is studying:
 </div>
 
 <p>
-Using endogenously-labeled fluorescent libraries in mouse embryonic stem cells,
-we visualize differentiation events, nuclear body dynamics, protein binding kinetics,
-and screen for pluripotency and differentiation factors in living cells.
+Using endogenously-labeled fluorescent libraries in mouse embryonic stem cells which we generated, we can visualize differentiation events, nuclear body dynamics, protein binding kinetics, etc. and screen for pluripotency and differentiation relevant factors, in living cells.
 </p>
 
 
 ---
 
 <!-- PROJECT 2 -->
-<h2>Human pluripotent stem cell disease models</h2>
+<h2>Using human pluripotent stem cells to model neurodegenerative diseases</h2>
 
 <div style="margin: 20px 0;">
   <img src="{{ '/images/HPSCs.png' | relative_url }}"
@@ -70,19 +68,16 @@ and screen for pluripotency and differentiation factors in living cells.
 </div>
 
 <p>
-We use hESCs and hiPSCs to model neurodegenerative diseases including:
-poly-glutamine disorders (Huntington’s, Machado Joseph disease) and Parkinson’s disease.
+Here we are using human embryonic stem cells (hESCs) and human induced pluripotent stem cells (iPSCs) to model neurodegenerative diseases. We are studying poly-glutamine (PolyQ) diseases including Huntington's disease (HD) and Machado Joseph disease (MJD), as well as Parkinson's disease (PD).
 </p>
 
 
 ---
 
-<!-- ERC PROJECT -->
-<h2>Chromatin and transcription: from single cells to genome-wide views</h2>
+<h2>Chromatin and transcription in ESCs: from single cells to genome wide views</h2>
 
 <p>
-In our ERC project, we study chromatin plasticity and non-polyadenylated transcription in pluripotency.
-We combine biochemistry, single-cell imaging, and high-throughput technologies to understand genome regulation.
+In our ERC project, we aim to understand chromatin plasticity and the function of non-polyadenylated transcription in pluripotency. We are combining biochemistry, single cell advanced imaging assays and high throughput technologies to study chromatin and transcription at a genome-wide scale in ES cells and during differentiation and reprogramming, as well as decipher the function of candidate chromatin proteins and candidate non-polyadenylated transcripts in pluripotency.
 </p>
 
 <p>
