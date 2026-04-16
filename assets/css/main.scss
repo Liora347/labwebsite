@@ -275,3 +275,57 @@ h2 {
   font-size: 0.9rem;
   color: #666;
 }
+
+/* ========================
+   PUBLICATIONS
+======================== */
+
+.publications {
+  text-align: left;
+}
+
+.pub-item {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(8px);
+  padding: 20px 24px;
+  border-radius: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  transition: 0.2s ease;
+}
+
+.pub-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+.pub-item p {
+  margin: 0;
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.pub-item em {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.pub-btn {
+  white-space: nowrap;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pub-btn:hover {
+  opacity: 0.9;
+}
