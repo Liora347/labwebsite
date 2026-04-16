@@ -62,5 +62,5 @@ permalink: /
 <section class="content-section">
   <h2>Join Us</h2>
   <p>We are always looking for motivated students and researchers.</p>
-  <p>📧 eran.meshorer@mail.huji.ac.il</p>
+  <p> eran.meshorer@mail.huji.ac.il</p>
 </section>
