@@ -3,7 +3,6 @@ layout: page
 title: Research
 permalink: /research/
 ---
-
 <h1 style="font-family: Georgia, serif; font-weight: 600;">Research</h1>
 
 <div class="nature-hero">
