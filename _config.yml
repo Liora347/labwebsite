@@ -1,107 +1,15 @@
-# ---------------------------
-# SITE SETTINGS
-# ---------------------------
-locale: "en-US"
 title: "Eran Meshorer Lab"
-title_separator: "-"
-name: "Eran Meshorer Lab"
-description: "The Meshorer lab studies epigenetic regulation, stem cell biology, neurodegeneration, and paleo-epigenetics."
+description: "Epigenetics, Stem Cells, and Neurons"
+baseurl: ""
+url: ""
 
-url: "https://liora347.github.io"
-baseurl: "/labwebsite"
-repository: "liora347/labwebsite"
+markdown: kramdown
 
-# ---------------------------
-# THEME (CRITICAL FIX)
-# ---------------------------
-remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
 
-# ---------------------------
-# AUTHOR (sidebar system trigger)
-# ---------------------------
-author: Eran Meshorer
-author_profile: true
-
-# ---------------------------
-# BASIC SETTINGS
-# ---------------------------
-breadcrumbs: false
-future: true
-read_more: "disabled"
-
-permalink: /:categories/:title/
-
-timezone: Etc/UTC
-
-# ---------------------------
-# COLLECTIONS
-# ---------------------------
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-# ---------------------------
-# DEFAULTS (sidebar ON everywhere)
-# ---------------------------
 defaults:
   - scope:
       path: ""
-      type: pages
     values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-
-# ---------------------------
-# MARKDOWN
-# ---------------------------
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  input: GFM
-
-# ---------------------------
-# PLUGINS
-# ---------------------------
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
-
-# ---------------------------
-# FILES
-# ---------------------------
-include:
-  - _pages
-
-exclude:
-  - node_modules
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-
-# ---------------------------
-# STYLING
-# ---------------------------
-sass:
-  sass_dir: _sass
-  style: compressed
+      layout: home
