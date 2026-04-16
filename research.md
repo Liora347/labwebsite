@@ -58,7 +58,6 @@ we visualize differentiation events, nuclear body dynamics, protein binding kine
 and screen for pluripotency and differentiation factors in living cells.
 </p>
 
-<p><strong>Projects 1, 2</strong></p>
 
 ---
 
@@ -75,7 +74,6 @@ We use hESCs and hiPSCs to model neurodegenerative diseases including:
 poly-glutamine disorders (Huntington’s, Machado Joseph disease) and Parkinson’s disease.
 </p>
 
-<p><strong>Project 5</strong></p>
 
 ---
 
