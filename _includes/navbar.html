@@ -1,17 +1,19 @@
 <nav class="navbar" id="navbar">
   <div class="nav-container">
-    
-    <a href="{{ '/' | relative_url }}" class="nav-logo">
-      Meshorer Lab
-    </a>
-
+    <a href="/" class="nav-logo">Meshorer Lab</a>
     <div class="nav-links">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/people/' | relative_url }}">People</a>
-      <a href="{{ '/research/' | relative_url }}">Research</a>
-      <a href="{{ '/publications/' | relative_url }}">Publications</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a href="/">Home</a>
+      <a href="/people/">People</a>
+      <a href="/research/">Research</a>
+      <a href="/publications/">Publications</a>
+      <a href="/contact/">Contact</a>
     </div>
-
   </div>
 </nav>
+
+<script>
+  window.addEventListener("scroll", function() {
+    const navbar = document.getElementById("navbar");
+    navbar.classList.toggle("scrolled", window.scrollY > 20);
+  });
+</script>
