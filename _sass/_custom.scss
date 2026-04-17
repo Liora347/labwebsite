@@ -1,5 +1,5 @@
 /* ========================
-   🌐 DESIGN SYSTEM
+   DESIGN SYSTEM
 ======================== */
 
 :root {
@@ -13,18 +13,16 @@
 }
 
 /* ========================
-   🌐 GLOBAL
+   GLOBAL
 ======================== */
 
 body {
   background: linear-gradient(to bottom, var(--bg-light), var(--bg-soft));
-  color: var(--text);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 /* ========================
-   📄 CONTENT LAYOUT
+   CONTENT
 ======================== */
 
 .page__content {
@@ -36,7 +34,7 @@ body {
 }
 
 /* ========================
-   🎯 HERO SECTION
+   HERO
 ======================== */
 
 .page__hero--overlay {
@@ -49,118 +47,23 @@ body {
   text-align: center;
 }
 
-/* Title */
 .page__title {
   font-size: 56px;
-  font-weight: 700;
   color: white;
-  letter-spacing: -1px;
 }
 
-/* Subtitle */
 .page__lead {
   font-size: 22px;
   color: #e5e7eb;
-  margin-top: 10px;
 }
 
 /* ========================
-   🔘 BUTTONS
-======================== */
-
-.hero-buttons {
-  margin-top: 30px;
-}
-
-.btn {
-  border-radius: 999px;
-  padding: 12px 24px;
-  font-weight: 600;
-  margin: 5px;
-  transition: all 0.25s ease;
-}
-
-/* Primary */
-.btn--primary {
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: white;
-}
-
-.btn--primary:hover {
-  transform: translateY(-2px);
-  opacity: 0.9;
-}
-
-/* Secondary */
-.btn--inverse {
-  background: white;
-  color: var(--text);
-}
-
-.btn--inverse:hover {
-  background: #f3f4f6;
-}
-
-/* ========================
-   🧱 HEADINGS
-======================== */
-
-.page__content h2 {
-  margin-top: 70px;
-  font-size: 34px;
-  letter-spacing: -0.5px;
-}
-
-.page__content p {
-  color: var(--muted);
-}
-
-/* ========================
-   🧩 CARD LIST
-======================== */
-
-.page__content ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
-  list-style: none;
-  padding: 0;
-  margin-top: 30px;
-}
-
-.page__content ul li {
-  background: rgba(255,255,255,0.8);
-  backdrop-filter: blur(10px);
-  padding: 24px;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  transition: all 0.25s ease;
-}
-
-.page__content ul li:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 50px rgba(0,0,0,0.12);
-}
-
-/* ========================
-   🖼 IMAGES
-======================== */
-
-.page__content img {
-  border-radius: 18px;
-  margin-top: 25px;
-  width: 100%;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-}
-
-/* ========================
-   🔗 LINKS
+   LINKS
 ======================== */
 
 a {
   color: var(--primary);
   text-decoration: none;
-  font-weight: 500;
 }
 
 a:hover {
@@ -168,38 +71,18 @@ a:hover {
 }
 
 /* ========================
-   ✨ SMALL MODERN TOUCHES
+   ANIMATION
 ======================== */
 
-/* smoother scrolling feel */
 html {
   scroll-behavior: smooth;
 }
 
-/* subtle fade-in for content */
 .page__content {
   animation: fadeIn 0.6s ease-in;
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.person-row a {
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.person-row a:hover {
-  text-decoration: underline;
-}
-
-t-decoration: underline;
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
