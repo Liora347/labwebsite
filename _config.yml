@@ -4,9 +4,7 @@ description: "Epigenetics, Stem Cells, and Neurons"
 url: "https://liora347.github.io"
 baseurl: "/labwebsite"
 
-theme: minima
 
-markdown: kramdown
 ---
 
 <div class="hero full-bleed">
