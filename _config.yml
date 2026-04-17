@@ -1,5 +1,5 @@
 ---
-title: "Eran Meshorer Lab"
+title: "Meshorer Lab"
 description: "Epigenetics, Stem Cells, and Neurons"
 baseurl: "/labwebsite"  # keep if your repo name is labwebsite
 url: "" 
@@ -14,7 +14,7 @@ markdown: kramdown
   <div class="hero-overlay"></div>
 
   <div class="hero-content">
-    <h1>Eran Meshorer Lab</h1>
+    <h1>Meshorer Lab</h1>
     <p>Epigenetics, Stem Cells, and Neurons</p>
 
     <div>
