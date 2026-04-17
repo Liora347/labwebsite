@@ -459,3 +459,18 @@ h2 {
 .site-header {
   display: none !important;
 }
+/* FIX TOP SPACING FROM FIXED NAVBAR */
+.page-content,
+.page__content {
+  margin-top: 80px;
+}
+
+/* FIX SECTION SPACING */
+section {
+  padding: 60px 20px;
+}
+
+/* REMOVE WEIRD EXTRA SPACE ON FIRST SECTION */
+.content-section:first-of-type {
+  padding-top: 40px;
+}
