@@ -1,8 +1,8 @@
 ---
 title: "Meshorer Lab"
 description: "Epigenetics, Stem Cells, and Neurons"
-baseurl: "/labwebsite"  # keep if your repo name is labwebsite
-url: "" 
+url: "https://liora347.github.io"
+baseurl: "/labwebsite"
 
 theme: minima
 
