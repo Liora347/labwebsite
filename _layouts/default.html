@@ -13,10 +13,13 @@ layout: compress
 
   <body>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% include navbar.html %}
 
-    {{ content }}
+    {% include browser-upgrade.html %}
+
+    <div class="page-content">
+      {{ content }}
+    </div>
 
     <div class="page__footer">
       <footer>
