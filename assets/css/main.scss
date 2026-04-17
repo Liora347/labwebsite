@@ -7,6 +7,7 @@
 
 :root {
   --primary: #2563eb;
+  --primary-dark: #1e40af;
   --accent: #7c3aed;
   --text: #111827;
   --muted: #6b7280;
@@ -107,12 +108,84 @@ body {
 }
 
 /* ========================
-   HERO FIX (FULL WIDTH)
+   HERO (FIXED + FULLSCREEN)
 ======================== */
 
-.hero,
-.page__hero--overlay {
+.hero {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
   margin-top: -80px;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+/* ========================
+   BUTTONS (NEW)
+======================== */
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  margin: 5px;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.3);
+  transform: translateY(-2px);
 }
 
 /* ========================
@@ -143,6 +216,7 @@ section {
 
 .content-section:first-of-type {
   padding-top: 30px;
+  margin-top: 40px;
 }
 
 /* ========================
