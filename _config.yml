@@ -1,7 +1,12 @@
 ---
-layout: home
 title: "Eran Meshorer Lab"
-permalink: /
+description: "Epigenetics, Stem Cells, and Neurons"
+baseurl: "/labwebsite"  # keep if your repo name is labwebsite
+url: "" 
+
+theme: minima
+
+markdown: kramdown
 ---
 
 <div class="hero full-bleed">
