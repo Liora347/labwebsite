@@ -313,3 +313,18 @@ h2 {
   max-width: 700px;
   width: 100%;
 }
+/* ========================
+   LAB IMAGE FIX
+======================== */
+
+.lab-image {
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  margin: 30px auto;
+  border-radius: 18px;
+  object-fit: cover;
+}
+.lab-image {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
