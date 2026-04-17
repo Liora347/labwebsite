@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Eran Meshorer Lab"
+title: "Meshorer Lab"
 permalink: /
 ---
 
@@ -9,7 +9,7 @@ permalink: /
   <div class="hero-overlay"></div>
 
   <div class="hero-content">
-    <h1>Eran Meshorer Lab</h1>
+    <h1>Meshorer Lab</h1>
     <p>Epigenetics, Stem Cells, and Neurons</p>
 
     <div>
