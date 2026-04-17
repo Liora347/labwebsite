@@ -3,24 +3,25 @@ layout: page
 title: "People"
 permalink: /people/
 ---
+
 <section class="people-list">
 
 <h2>Principal Investigator</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Eran.jpg">
+  <img src="{{ '/images/Eran.jpg' | relative_url }}">
   <div>
     <h3>Eran Meshorer</h3>
     <p class="role">Principal Investigator</p>
     <p><a href="mailto:eran.meshorer@mail.huji.ac.il">eran.meshorer[at]mail.huji.ac.il</a></p>
-    <p><a href="#">CV</a></p>
+    <p><a href="http://meshorerlab.huji.ac.il/docs/Meshorer%20CV%20+%20LoP%202025.pdf" target="_blank">CV</a></p>
   </div>
 </div>
 
 <h2>Staff</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Malka.jpeg">
+  <img src="{{ '/images/Malka.jpeg' | relative_url }}">
   <div>
     <h3>Malka Nissim-Rafinia</h3>
     <p class="role">Lab Manager</p>
@@ -29,7 +30,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Yael.jpg">
+  <img src="{{ '/images/Yael.jpg' | relative_url }}">
   <div>
     <h3>Yael Riback</h3>
     <p class="role">Lab Administrator</p>
@@ -38,7 +39,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Ayelet.jpg">
+  <img src="{{ '/images/Ayelet.jpg' | relative_url }}">
   <div>
     <h3>Ayelet-Hashahar Cohen</h3>
     <p class="role">Research Associate (Teacher-Researcher)</p>
@@ -49,7 +50,7 @@ permalink: /people/
 <h2>Postdoctoral Fellows</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Walaa.jpg">
+  <img src="{{ '/images/Walaa.jpg' | relative_url }}">
   <div>
     <h3>Walaa Oweis</h3>
     <p class="role">Postdoctoral Fellow</p>
@@ -58,7 +59,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Tamar.jpg">
+  <img src="{{ '/images/Tamar.jpg' | relative_url }}">
   <div>
     <h3>Tamar Segal</h3>
     <p class="role">Postdoctoral Fellow</p>
@@ -69,7 +70,7 @@ permalink: /people/
 <h2>PhD Students</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Elad.jpg">
+  <img src="{{ '/images/Elad.jpg' | relative_url }}">
   <div>
     <h3>Elad Dvir</h3>
     <p class="role">Joint PhD student with Sagiv Shifman</p>
@@ -78,7 +79,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Shalhevet.jpg">
+  <img src="{{ '/images/Shalhevet.jpg' | relative_url }}">
   <div>
     <h3>Shalhevet Klemfner</h3>
     <p class="role">PhD Student</p>
@@ -87,7 +88,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Avital.jpg">
+  <img src="{{ '/images/Avital.jpg' | relative_url }}">
   <div>
     <h3>Avital Pushett</h3>
     <p class="role">PhD Student</p>
@@ -96,7 +97,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Tzukit.jpg">
+  <img src="{{ '/images/Tzukit.jpg' | relative_url }}">
   <div>
     <h3>Tzukit Tal</h3>
     <p class="role">Joint PhD student with TEVA</p>
@@ -105,7 +106,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Ziv.jpg">
+  <img src="{{ '/images/Ziv.jpg' | relative_url }}">
   <div>
     <h3>Ziv Brodie</h3>
     <p class="role">PhD Student</p>
@@ -116,7 +117,7 @@ permalink: /people/
 <h2>MSc Students</h2>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Eden.png">
+  <img src="{{ '/images/Eden.png' | relative_url }}">
   <div>
     <h3>Eden Mishne</h3>
     <p class="role">MSc Student</p>
@@ -125,7 +126,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/ShiraH.jpg">
+  <img src="{{ '/images/ShiraH.jpg' | relative_url }}">
   <div>
     <h3>Shira Horev</h3>
     <p class="role">MSc Student</p>
@@ -134,7 +135,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/ShiraS.jpg">
+  <img src="{{ '/images/ShiraS.jpg' | relative_url }}">
   <div>
     <h3>Shira Siegel</h3>
     <p class="role">MSc Student</p>
@@ -143,7 +144,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Riki.jpeg">
+  <img src="{{ '/images/Riki.jpeg' | relative_url }}">
   <div>
     <h3>Rivka Masar</h3>
     <p class="role">MSc Student</p>
@@ -152,7 +153,7 @@ permalink: /people/
 </div>
 
 <div class="person-row person-with-image">
-  <img src="/labwebsite/images/Liora.jpg">
+  <img src="{{ '/images/Liora.jpg' | relative_url }}">
   <div>
     <h3>Liora Feshbach</h3>
     <p class="role">MSc Student</p>
@@ -162,7 +163,7 @@ permalink: /people/
 
 <h2>Alumni</h2>
 
-<div class="person-row">
+<div class="person-row alumni">
   <p>Adva Maimon (MSc: 2008–2010), Product Manager, Sartorius.</p>
   <p>Hadas Hezroni (MSc: 2009–2011), Senior Bioinformatics Scientist, Cytoreason.</p>
   <p>Dr. Anna Mattout (Postdoc: 2008–2011), PI, University of Toulouse.</p>
