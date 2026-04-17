@@ -2,7 +2,6 @@
 layout: page
 title: "People"
 permalink: /people/
-author_profile: false
 ---
 <section class="people-list">
 
