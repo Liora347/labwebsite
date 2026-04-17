@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="hero full-bleed">
-  <img src="{{ '/images/meshorer-lab.jpg' | relative_url }}">
+  <img src="{{ '/images/meshorer-lab.jpg' | relative_url }}" alt="Meshorer Lab">
   <div class="hero-overlay"></div>
 
   <div class="hero-content">
@@ -56,11 +56,13 @@ permalink: /
 
 <section class="content-section">
   <h2>Our Lab</h2>
-  <img src="{{ '/images/meshorer-lab.jpg' | relative_url }}" class="lab-image">
+  <img src="{{ '/images/meshorer-lab.jpg' | relative_url }}" class="lab-image" alt="Lab members">
 </section>
 
 <section class="content-section">
   <h2>Join Us</h2>
   <p>We are always looking for motivated students and researchers.</p>
-  <p> eran.meshorer@mail.huji.ac.il</p>
+  <p>
+    <a href="mailto:meshorer@huji.ac.il">meshorer@huji.ac.il</a>
+  </p>
 </section>
