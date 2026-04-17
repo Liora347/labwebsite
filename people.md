@@ -163,7 +163,7 @@ permalink: /people/
 
 <h2>Alumni</h2>
 
-<div class="person-row alumni">
+<div class="alumni">
   <p>Adva Maimon (MSc: 2008–2010), Product Manager, Sartorius.</p>
   <p>Hadas Hezroni (MSc: 2009–2011), Senior Bioinformatics Scientist, Cytoreason.</p>
   <p>Dr. Anna Mattout (Postdoc: 2008–2011), PI, University of Toulouse.</p>
