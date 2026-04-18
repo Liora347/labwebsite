@@ -527,3 +527,175 @@ h2 {
   color: #374151;
   font-size: 1.05rem;
 }
+/* ========================
+   PUBLICATIONS PAGE
+======================== */
+
+.publications {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.publications h2 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e5e7eb;
+  color: #0f172a;
+}
+
+.publications .section-subtitle {
+  font-size: 1.05rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.publications .section-subtitle a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.publications .section-subtitle a:hover {
+  text-decoration: underline;
+}
+
+.pub-item {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 1.6rem 2rem;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: all 0.25s ease;
+  border: 1px solid rgba(255,255,255,0.7);
+}
+
+.pub-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.07);
+}
+
+.pub-item p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: #374151;
+}
+
+.pub-item strong {
+  color: #111827;
+}
+
+.pub-item em {
+  color: #6b7280;
+  font-style: italic;
+}
+
+
+/* ========================
+   CONTACT PAGE
+======================== */
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem 5rem;
+}
+
+.contact-card {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 4rem;
+  max-width: 1100px;
+  width: 100%;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+}
+
+.contact-card .name {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.contact-card .role {
+  font-size: 1.5rem;
+  color: #374151;
+  margin-bottom: 2.5rem;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.contact-grid {
+  margin-top: 3rem;
+  display: grid;
+  gap: 1.4rem;
+}
+
+.contact-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.15rem;
+}
+
+.contact-item .label {
+  min-width: 90px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.contact-item .value {
+  color: #374151;
+}
+
+.contact-item a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+
+/* ========================
+   MOBILE
+======================== */
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 2rem;
+  }
+
+  .contact-card .name {
+    font-size: 2.5rem;
+  }
+
+  .contact-card .role {
+    font-size: 1.2rem;
+  }
+
+  .contact-section p {
+    font-size: 1rem;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .publications h2 {
+    font-size: 1.8rem;
+  }
+}
