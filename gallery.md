@@ -40,35 +40,6 @@ classes: page-gallery
 </section>
 
 <!-- ========================
-   IN THE PRESS
-======================== -->
-<section class="content-section">
-  <h2>In The Press</h2>
-
-  <div class="cards">
-
-    <div class="card">
-      <h3>Genome Research Featured</h3>
-      <p>Our work on chromatin dynamics was highlighted in major science media.</p>
-      <a href="PASTE_LINK" target="_blank" class="pub-btn">Read Article</a>
-    </div>
-
-    <div class="card">
-      <h3>Interview with Prof. Meshorer</h3>
-      <p>Discussing epigenetics and the future of stem cell research.</p>
-      <a href="PASTE_LINK" target="_blank" class="pub-btn">Watch Interview</a>
-    </div>
-
-    <div class="card">
-      <h3>Nature News Coverage</h3>
-      <p>Coverage of our latest findings in neurodegeneration.</p>
-      <a href="PASTE_LINK" target="_blank" class="pub-btn">Read Article</a>
-    </div>
-
-  </div>
-</section>
-
-<!-- ========================
    SELECTED MOVIES
 ======================== -->
 <section class="content-section">
