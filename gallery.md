@@ -22,17 +22,17 @@ permalink: /gallery/
 
     <div class="card">
       <img src="{{ '/images/lab1.jpg' | relative_url }}" alt="Lab photo 1">
-      <p>Team meeting in the lab</p>
+      <p>Lab BBQ 2025</p>
     </div>
 
     <div class="card">
       <img src="{{ '/images/lab2.jpg' | relative_url }}" alt="Lab photo 2">
-      <p>Conference presentation</p>
+      <p>Hannukah 2023</p>
     </div>
 
     <div class="card">
       <img src="{{ '/images/lab3.jpg' | relative_url }}" alt="Lab photo 3">
-      <p>Lab retreat</p>
+      <p>Farewell Moria 2023</p>
     </div>
 
   </div>
