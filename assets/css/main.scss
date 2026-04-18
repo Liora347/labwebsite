@@ -474,3 +474,56 @@ h2 {
     font-size: 1.5rem;
   }
 }
+/* ========================
+   RESEARCH PAGE BUTTONS
+======================== */
+
+.pub-btn {
+  display: inline-block;
+  padding: 12px 22px;
+  margin: 8px 10px 8px 0;
+  background: #2563eb;
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.18);
+  transition: all 0.25s ease;
+}
+
+.pub-btn:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(37, 99, 235, 0.22);
+}
+
+/* research content cards */
+
+.page__content h2 {
+  margin-top: 4rem;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.page__content hr {
+  border: none;
+  height: 1px;
+  background: #dbe2ea;
+  margin: 3rem 0;
+}
+
+.page__content ol,
+.page__content ul {
+  background: white;
+  padding: 2rem 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+  line-height: 1.8;
+}
+
+.page__content p {
+  line-height: 1.8;
+  color: #374151;
+  font-size: 1.05rem;
+}
