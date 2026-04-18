@@ -366,3 +366,111 @@ h2 {
   line-height: 1.6;
   margin: 0;
 }
+/* PEOPLE PAGE */
+
+.people-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.people-list h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: #0f172a;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.person-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.person-row:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+}
+
+.person-row img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.person-row h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.person-row .role {
+  margin-top: 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.person-row p {
+  margin: 0.7rem 0;
+  font-size: 1rem;
+}
+
+.person-row a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.person-row a:hover {
+  text-decoration: underline;
+}
+
+.alumni {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.alumni p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #374151;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .person-row {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .person-row img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .people-list h2 {
+    font-size: 2rem;
+  }
+
+  .person-row h3 {
+    font-size: 1.5rem;
+  }
+}
