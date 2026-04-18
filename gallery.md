@@ -2,6 +2,7 @@
 layout: page
 title: "Gallery"
 permalink: /gallery/
+classes: page-gallery
 ---
 
 <!-- PAGE HEADER -->
