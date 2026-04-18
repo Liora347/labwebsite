@@ -31,7 +31,7 @@ permalink: /gallery/
     </div>
 
     <div class="card">
-      <img src="{{ '/images/lab3.jpg' | relative_url }}" alt="Lab photo 3">
+      <img src="{{ '/images/FarewellMoria20230212-WA0004.jpg' | relative_url }}" alt="Lab photo 3">
       <p>Farewell Moria 2023</p>
     </div>
 
