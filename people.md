@@ -58,15 +58,6 @@ permalink: /people/
   </div>
 </div>
 
-<div class="person-row person-with-image">
-  <img src="{{ '/images/Tamar.jpg' | relative_url }}">
-  <div>
-    <h3>Tamar Segal</h3>
-    <p class="role">Postdoctoral Fellow</p>
-    <p><a href="mailto:tamar.segal@mail.huji.ac.il">tamar.segal[at]mail.huji.ac.il</a></p>
-  </div>
-</div>
-
 <h2>PhD Students</h2>
 
 <div class="person-row person-with-image">
@@ -191,6 +182,7 @@ permalink: /people/
   <p>Daniel Batyrev (PhD: 2018–2024).</p>
   <p>Dr. Juliane Viegas (PhD: 2018–2024), Harvard University.</p>
   <p>Dr. Patrick Siang Lin Lim (PhD: 2018–2024), MIT.</p>
+  <p>Dr. Tamar Segal (PhD: 2018–2026).</p>
 </div>
 
 </section>
